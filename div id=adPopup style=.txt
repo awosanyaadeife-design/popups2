@@ -32,7 +32,7 @@ font-family:Arial,sans-serif;
 
   <!-- CLICKABLE AD IMAGE -->
   <a
-    href="YOUR-ADVERTISER-WEBSITE"
+    href="kingjohn"
     target="_blank"
     rel="noopener noreferrer">
 
