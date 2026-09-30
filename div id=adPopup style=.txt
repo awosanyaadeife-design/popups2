@@ -1,0 +1,74 @@
+<div id="adPopup" style="
+display:none;
+position:fixed;
+bottom:20px;
+right:20px;
+width:320px;
+max-width:calc(100% - 40px);
+background:white;
+padding:10px;
+border-radius:15px;
+box-shadow:0 5px 25px rgba(0,0,0,0.3);
+z-index:99999;
+text-align:center;
+font-family:Arial,sans-serif;
+">
+
+  <!-- CLOSE BUTTON -->
+  <button onclick="document.getElementById('adPopup').style.display='none'"
+  style="
+  position:absolute;
+  right:8px;
+  top:5px;
+  border:0;
+  background:white;
+  font-size:24px;
+  cursor:pointer;
+  border-radius:50%;
+  z-index:2;
+  ">
+  ×
+  </button>
+
+  <!-- CLICKABLE AD IMAGE -->
+  <a
+    href="YOUR-ADVERTISER-WEBSITE"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <img
+      src="https://i.ibb.co/LX7vFkJF/1790601394605.png"
+      alt="Special Offer"
+      style="
+      width:100%;
+      border-radius:12px;
+      display:block;
+      cursor:pointer;
+      ">
+  </a>
+
+  <!-- WHATSAPP BUTTON -->
+  <a
+    href="https://wa.me/2347051257962?text=Hello%2C%20I%20am%20interested%20in%20your%20offer"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="
+    display:block;
+    background:#25D366;
+    color:white;
+    padding:13px;
+    margin-top:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    ">
+    💬 CONTACT US ON WHATSAPP
+  </a>
+
+</div>
+
+<script>
+setTimeout(function() {
+  document.getElementById("adPopup").style.display = "block";
+}, 5000);
+</script>
